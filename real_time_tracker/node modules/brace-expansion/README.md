@@ -38,9 +38,8 @@ expand('file-{a..e..2}.jpg')
 expand('file{00..10..5}.jpg')
 // => ['file00.jpg', 'file05.jpg', 'file10.jpg']
 
-{% raw %}
-expand('{{A..C},{a..c}}')
-{% endraw %}
+
+//expand('{{A..C},{a..c}}')
 
 // => ['A', 'B', 'C', 'a', 'b', 'c']
 
